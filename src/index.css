@@ -1,13 +1,1261 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+    
+   
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    width: 100%;
+   
+   
+   
+}
+.navbar-collapse{
+   
+    background-color: none;
+}
+
+.hero_main{
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 7%;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-image: url('./Images/hero-bg.jpg');
+}
+.hero_main1{
+    background-image: url('./Images/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.active1{
+    position: relative;
+    
+}
+.active1::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    transition:  all 0.2s;
+}
+.active1:hover::after{
+    opacity: 1;
+}
+
+.hover1{
+    position: relative;
+    
+}
+.hover1::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    opacity: 0;
+    transition:  all 0.2s;
+}
+.hover1:hover::after{
+    opacity: 1;
+}
+
+
+.hover2{
+    position: relative;
+    
+}
+.hover2::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    opacity: 0;
+    transition:  all 0.2s;
+}
+.hover2:hover::after{
+    opacity: 1;
+}
+
+
+.hover3{
+    position: relative;
+    
+}
+.hover3::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    opacity: 0;
+    transition:  all 0.2s;
+}
+.hover3:hover::after{
+    opacity: 1;
+}
+
+.hover4{
+    position: relative;
+    
+}
+.hover4::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    opacity: 0;
+    transition:  all 0.2s;
+}
+.hover4:hover::after{
+    opacity: 1;
+}
+
+.active2{
+    position: relative;
+}
+.active2::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    transition:  all 0.2s;
+}
+.active2:hover::after{
+    opacity: 1;
+}
+.active3{
+    position: relative;
+}
+.active3::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 2.5%;
+    bottom: 0;
+    transition:  all 0.2s;
+}
+.active3:hover::after{
+    opacity: 1;
+}
+.active4{
+    position: relative;
+}
+.active4::after{
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: rgb(237,38,83);
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    transition:  all 0.2s;
+   
+}
+.active4:hover::after{
+    opacity: 1;
+}
+
+
+
+
+.carousel-inner{
+    width: 100%;
+    overflow:auto
+}
+.fitness{
+    font-size:35px;
+    font-weight: 700;
+}
+.training{
+    font-size:55px;
+    font-weight: 700;
+}
+.neogym{
+    font-size:80px;
+    font-weight: 700;
+}
+.para_div{
+    margin-top: 20px;
+ 
+    
+}
+.para1{
+    font-size: larger;
+}
+.btn{
+    width: 170px;
+    height: 50px;
+    border: 1px solid white;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    transition: 0.5s all;
+    border-radius: 0;
+    
+}
+.btn:hover{
+    background-color: white;
+}
+.btn_div{
+    /* position: absolute;
+    bottom: -10%; */
+    margin-top: 40px;
+    /* transform: translateY(45px); */
+    width: 100%;
+    z-index: 999;
+}
+
+
+/* Hero section Media Queries starts From Here */
+
+
+@media only screen and (min-width:200px) and (max-width:767px)  {
+    .hero_main{
+        /* height: 100vh; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: center;
+   background-attachment: fixed;
+   
+        
+    }
+    .hero_main1{
+        background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: center;
+   background-attachment: fixed;
+   
+    }
+    .active1{
+        position: relative;
+        
+    }
+    .active1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 1;
+        
+        transition:  all 0.2s;
+    }
+    .active1:hover::after{
+        width: 10%;
+    }
+
+    .hover1{
+        position: relative;
+        
+    }
+    .hover1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        
+        transition:  all 0.2s;
+    }
+    .hover1:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active2{
+        position: relative;
+        
+    }
+    .active2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover2{
+        position: relative;
+        
+    }
+    .hover2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active3{
+        position: relative;
+        
+    }
+    .active3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover3{
+        position: relative;
+        
+    }
+    .hover3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+  .active4{
+        position: relative;
+        
+    }
+  .active4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+      
+        transition:  all 0.2s;
+    }
+  .active4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .hover4{
+        position: relative;
+        
+    }
+  .hover4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+  .hover4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .hero_head1{
+        text-align: center;
+        font-size: 180%;
+       }
+       .hero_head2{
+        font-size: 250%;
+        text-align: center;
+       }
+       .hero_head3{
+        font-size: 400%;
+        text-align: center;
+       }
+       /* *WhyUS Section Starts Here */
+     
+     .us_main{
+        
+        background-position-x: center;
+        background-position-y: center ;
+        background-attachment: fixed;
+     } 
+     .us_main2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        padding-right: 0;
+    
+     }
+     .quality_div{
+        margin-right: 0;
+       padding-right: 0;
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+    .quality_div1{
+        margin-top: 0;
+    }
+    .quality_para_div {
+        width: 200px;
+    }
+    .quality_img{
+        width: 100%;
+    }
+    .img1{
+        height: 100px;
+    }
+    .img2{
+        height: 100px;
+    }
+    .img3{
+        height: 100px;
+    }
+    .img4{
+        height: 100px;
+    }
+    .health_heading{
+        font-size: larger;
+    }
+    .health_para_div{
+        margin-bottom: 40px;
+    }
+
+   .left_trainer{
+    width:80%;
+
+   }
+   .center_trainer{
+    width: 80%;
+   }
+   .right_trainer{
+    width: 80%;
+   }
+   .contact_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+    .left_contact_main{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .right_contact_main{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .input_div{
+        display: flex;
+        justify-content: center;
+    }
+    #name{
+        width: 90%;
+    }
+    #email{
+        width: 90%;
+    }
+    #password{
+        width: 90%;
+    }
+    #confirm_password{
+        width: 90%;
+    }
+    .submit{
+        width: 70%;
+    }
+    .submit_button_div{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+   .number{
+    font-size: small;
+   }
+   .location{
+    font-size: small;
+   }
+   .mail{
+    font-size: small;
+   }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
+    .hero_main{
+        height: 100vh;
+        background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: center;
+   background-attachment: fixed;
+   
+        padding-top: 10%;
+    }
+    .active1{
+        position: relative;
+        
+    }
+    .active1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 1;
+        
+        transition:  all 0.2s;
+    }
+    .active1:hover::after{
+        width: 10%;
+    }
+
+    .hover1{
+        position: relative;
+        
+    }
+    .hover1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        
+        transition:  all 0.2s;
+    }
+    .hover1:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active2{
+        position: relative;
+        
+    }
+    .active2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover2{
+        position: relative;
+        
+    }
+    .hover2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active3{
+        position: relative;
+        
+    }
+    .active3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover3{
+        position: relative;
+        
+    }
+    .hover3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+  .active4{
+        position: relative;
+        
+    }
+  .active4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+      
+        transition:  all 0.2s;
+    }
+  .active4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .hover4{
+        position: relative;
+        
+    }
+  .hover4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+  .hover4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .hero_main1{
+        background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: center;
+   background-attachment: fixed;
+   
+    }
+    .hero_head1{
+        text-align: center;
+        font-size: 180%;
+       }
+       .hero_head2{
+        font-size: 250%;
+        text-align: center;
+       }
+       .hero_head3{
+        font-size: 400%;
+        text-align: center;
+       }
+       .health_heading{
+        font-size: larger;
+    }
+    .health_para_div{
+        margin-bottom: 40px;
+    }
+       .left_trainer{
+        width:80%;
+    
+       }
+       .center_trainer{
+        width: 80%;
+       }
+       .right_trainer{
+        width: 80%;
+       }
+       
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero_main{
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .hero_main1{
+        background-position: center;
+    }
+    .us_main{
+        
+        background-position-x: center;
+        background-position-y: center ;
+        background-attachment: fixed;
+     } 
+     .us_main2{
+        display: flex;
+        justify-content: center;
+        margin-right: 0;
+        padding-right: 0;
+    
+     }
+     .quality_div{
+        margin-right: 0;
+       padding-right: 0;
+        margin-top: 30px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+     .img1{
+        height: 100px;
+    }
+    .img2{
+        height: 100px;
+    }
+    .img3{
+        height: 100px;
+    }
+    .img4{
+        height: 100px;
+    }
+    .quality_para_div {
+        width: 200px;
+    }
+    .active1{
+        position: relative;
+        
+    }
+    .active1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 1;
+        
+        transition:  all 0.2s;
+    }
+    .active1:hover::after{
+        width: 10%;
+    }
+
+    .hover1{
+        position: relative;
+        
+    }
+    .hover1::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        
+        transition:  all 0.2s;
+    }
+    .hover1:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active2{
+        position: relative;
+        
+    }
+    .active2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover2{
+        position: relative;
+        
+    }
+    .hover2::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover2:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+
+    .active3{
+        position: relative;
+        
+    }
+    .active3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        
+        transition:  all 0.2s;
+    }
+    .active3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+
+    .hover3{
+        position: relative;
+        
+    }
+    .hover3::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+    .hover3:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+  .active4{
+        position: relative;
+        
+    }
+  .active4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+      
+        transition:  all 0.2s;
+    }
+  .active4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .hover4{
+        position: relative;
+        
+    }
+  .hover4::after{
+        content: "";
+        width: 10%;
+        height: 4px;
+        background-color: rgb(237,38,83);
+        position: absolute;
+        left: 45%;
+        bottom: 0;
+        opacity: 0;
+        transition:  all 0.2s;
+    }
+  .hover4:hover::after{
+        opacity: 1;
+        width: 10%;
+    }
+    .left_trainer{
+        width:45%;
+        margin-top: 10px;
+       }
+       .center_trainer{
+        width: 45%;
+        margin-top: 10px;
+       }
+       .right_trainer{
+        width: 50%;
+        margin-top: 10px;
+
+       }
+    .left_contact_main{
+        width: 100%;
+    }
+    .right_contact_main{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input_div{
+        display: flex;
+        justify-content: center;
+    }
+    
+
+}  
+ 
+
+    
+
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+    .hero_main{
+        
+      background-position: center;
+   background-attachment: fixed;
+        
+    }
+    .hero_main1{
+      background-position: center;
+   background-attachment: fixed;
+   
+    }
+    /*  */
+       .carousel-inner{
+        width: 100%;
+        overflow:auto
+    }
+    
+}
+
+@media only screen and (min-width:1440px) and (max-width:2560px){
+    .hero_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh
+        
+    }
+   
+    .hero_head1{
+        text-align: center;
+        font-size: 450%;
+       }
+       .hero_head2{
+        font-size: 550%;
+        text-align: center;
+       }
+       .hero_head3{
+        font-size: 950%;
+        text-align: center;
+       }
+       .para1{
+        font-size:250%;
+       }
+       .carousel-inner{
+    
+   
+        /* height: 100%; */
+        width: 100%;
+        overflow:auto
+        
+       
+    }
+    .btn{
+        width: 200px;
+        height: 65px;
+    }
+
+}
+.us_main{
+    
+   padding-bottom: 7%;
+    width: 100%;
+    background-image: url(./Images/us-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.us_head{
+    padding-top: 90px;
+    font-weight: 700;
+    position: relative;
+}
+.us_head::after{
+    content: '';
+   background-color: rgb(237,38,83);
+    height: 4px;
+    width: 5%;
+    position: absolute;
+    right: 48%;
+    bottom:-2%;
+    
+}
+
+.us_main2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    padding-bottom: 10%;
+}
+.img1{
+    width: 80px;
+}
+.img2{
+    width: 60px;
+}
+.img3{
+    width: 60px;
+}
+.img4{
+    width: 75px;
+}
+.quality_head_div{
+    margin-top: 10px;
+    
+}
+.quality_div{
+    padding-top: 50px;
+}
+.quality_heading{
+    color: aqua;
+}
+.health_main{
+    width: 100%;
+    padding-bottom: 10%;
+    background-image: url(./Images/healthy-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.health_heading{
+    padding-top: 8%;
+   
+}
+
+
+.health_para_div{
+    overflow-x: hidden;
+    margin-top: 50px;
+}
+.health_para{
+    font-size: large;
+}
+.trainers_main{
+    width: 100%;
+    padding-bottom: 9%;
+    background-image: url(./Images/trainer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+.trainers_heading{
+    color: white;
+    font-weight: 700;
+    padding-top:80px;
+    position: relative;
+}
+
+.trainers_heading::after{
+    content: '';
+   background-color: rgb(237,38,83);
+    height: 4px;
+    width: 5%;
+    position: absolute;
+    right: 48%;
+    bottom:-2%;
+    
+}
+.left_head{
+    font-weight: 800;
+}
+.center_head{
+    font-weight: 800;
+}
+.right_head{
+    font-weight: 800;
+}
+.trainer_img{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.social_media_main{
+    
+    transform: translateY(-25px);
+}
+.social_media_div{
+    background-color: aliceblue;
+    width: 70%;
+    height: 50px;
+    border-radius: 40px;
+   
+   
+}
+.contact_main{
+    width: 100%;
+    background-color: rgb(39,34,63);
+    margin: 0;
+    
+}
+
+.left_contact_img_div{
+    height: 100%;
+}
+
+
+
+.right_contact_head{
+    font-weight: 900;
+    margin-top: 60px;
+    position: relative;
+}
+
+.right_contact_head::after{
+    content: '';
+   background-color: rgb(237,38,83);
+    height: 5px;
+    width: 10%;
+    position: absolute;
+    right: 89%;
+    bottom:-8%;
+    
+}
+.input_div{
+    margin-top: 40px;
+}
+.input1{
+   width: 60%;
+   height: 50px;
+   padding-left: 10px;
+   font-size: large;
+}
+.input2{
+    width: 60%;
+   height: 50px;
+   padding-left: 10px;
+   font-size: large;
+}
+.input3{
+    width: 60%;
+   height: 50px;
+   padding-left: 10px;
+   font-size: large;
+}
+.input4{
+    width: 60%;
+   height: 120px;
+   padding-left: 10px;
+   font-size: large;
+}
+.submit_button_div{
+    width: 60%;
+    margin-top: 20px;
+}
+.submit{
+    border: none;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: rgb(237,38,83);
+}
+.footer_main{
+   margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: rgb(37,34,51);
 }
