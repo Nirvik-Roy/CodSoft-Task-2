@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-   
     overflow-x: hidden;
    
 }
@@ -29,8 +28,8 @@ body{
 .navbar-collapse{
     background-color: none;
 }
-
 .hero_main{
+    z-index: 999;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 7%;
@@ -224,7 +223,7 @@ body{
     margin-top: 40px;
     /* transform: translateY(45px); */
     width: 100%;
-    z-index: 999;
+   
 }
 
 
@@ -240,6 +239,7 @@ body{
     }
     .hero_main{
         /* height: 100vh; */
+        z-index: 999;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -407,6 +407,7 @@ body{
      .us_main{
        background-position: center;
         background-attachment: fixed;
+        z-index: 999;
      } 
      .us_main2{
         display: flex;
@@ -462,6 +463,7 @@ body{
     width: 80%;
    }
    .contact_main{
+    z-index: 999;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -517,6 +519,7 @@ body{
         height: 100%;
     }
     .hero_main{
+        z-index: 999;
         /* height: 100vh; */
         height: 100%;
         background-repeat: no-repeat;
@@ -705,6 +708,7 @@ body{
         height: 100%;
     }
     .hero_main{
+        z-index: 999;
         background-position: center;
         display: flex;
         align-items: center;
@@ -715,6 +719,8 @@ body{
         background-position: center;
     }
     .us_main{
+        
+      z-index: 999;
         background-position: center;
         background-attachment: fixed;
      } 
@@ -975,6 +981,8 @@ body{
     }
 }
 .us_main{
+
+   z-index: 999;
    padding-bottom: 7%;
     width: 100%;
     background-image: url(./Images/us-bg.jpg);
@@ -1027,6 +1035,7 @@ body{
     color: aqua;
 }
 .health_main{
+    z-index: 999;
     width: 100%;
     padding-bottom: 10%;
     background-image: url(./Images/healthy-bg.jpg);
@@ -1046,6 +1055,7 @@ body{
     font-size: large;
 }
 .trainers_main{
+    z-index: 999;
     width: 100%;
     padding-bottom: 9%;
     background-image: url(./Images/trainer-bg.jpg);
@@ -1092,6 +1102,7 @@ body{
     border-radius: 40px;
 }
 .contact_main{
+    z-index: 999;
     width: 100%;
     background-color: rgb(39,34,63);
     margin: 0;
@@ -1151,6 +1162,7 @@ body{
     background-color: rgb(237,38,83);
 }
 .footer_main{
+    z-index: 999;
     overflow-y: hidden;
    margin: 0;
     overflow-x: hidden;
