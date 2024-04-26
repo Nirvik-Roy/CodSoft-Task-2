@@ -183,13 +183,9 @@
 .active4:hover::after{
     opacity: 1;
 }
-
-
-
-
 .carousel-inner{
     width: 100%;
-    overflow:auto
+    overflow: hidden;
 }
 .fitness{
     font-size:35px;
@@ -205,8 +201,6 @@
 }
 .para_div{
     margin-top: 20px;
- 
-    
 }
 .para1{
     font-size: larger;
@@ -220,7 +214,6 @@
     font-family: sans-serif;
     transition: 0.5s all;
     border-radius: 0;
-    
 }
 .btn:hover{
     background-color: white;
@@ -244,23 +237,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-repeat: no-repeat;
-   background-position-x: center;
-   background-position-y: center;
+   background-position: center;
    background-attachment: fixed;
-   
-        
     }
     .hero_main1{
-        background-repeat: no-repeat;
-   background-position-x: center;
-   background-position-y: center;
+        background-position:center;
    background-attachment: fixed;
-   
     }
     .active1{
         position: relative;
-        
     }
     .active1::after{
         content: "";
@@ -271,16 +256,13 @@
         left: 45%;
         bottom: 0;
         opacity: 1;
-        
         transition:  all 0.2s;
     }
     .active1:hover::after{
         width: 10%;
     }
-
     .hover1{
         position: relative;
-        
     }
     .hover1::after{
         content: "";
@@ -291,18 +273,14 @@
         left: 45%;
         bottom: 0;
         opacity: 0;
-        
         transition:  all 0.2s;
     }
     .hover1:hover::after{
         opacity: 1;
         width: 10%;
     }
-
-
     .active2{
         position: relative;
-        
     }
     .active2::after{
         content: "";
@@ -312,17 +290,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active2:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover2{
         position: relative;
-        
     }
     .hover2::after{
         content: "";
@@ -339,11 +314,8 @@
         opacity: 1;
         width: 10%;
     }
-
-
     .active3{
         position: relative;
-        
     }
     .active3::after{
         content: "";
@@ -353,17 +325,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active3:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover3{
         position: relative;
-        
     }
     .hover3::after{
         content: "";
@@ -382,7 +351,6 @@
     }
   .active4{
         position: relative;
-        
     }
   .active4::after{
         content: "";
@@ -392,7 +360,6 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-      
         transition:  all 0.2s;
     }
   .active4:hover::after{
@@ -401,7 +368,6 @@
     }
     .hover4{
         position: relative;
-        
     }
   .hover4::after{
         content: "";
@@ -433,9 +399,7 @@
        /* *WhyUS Section Starts Here */
      
      .us_main{
-        
-        background-position-x: center;
-        background-position-y: center ;
+       background-position: center;
         background-attachment: fixed;
      } 
      .us_main2{
@@ -444,7 +408,6 @@
         flex-direction: column;
         margin-right: 0;
         padding-right: 0;
-    
      }
      .quality_div{
         margin-right: 0;
@@ -483,10 +446,8 @@
     .health_para_div{
         margin-bottom: 40px;
     }
-
    .left_trainer{
     width:80%;
-
    }
    .center_trainer{
     width: 80%;
@@ -542,21 +503,16 @@
     font-size: small;
    }
 }
-
-
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
     .hero_main{
         height: 100vh;
         background-repeat: no-repeat;
-   background-position-x: center;
-   background-position-y: center;
-   background-attachment: fixed;
-   
+        background-position: center;
+        background-attachment: fixed;
         padding-top: 10%;
     }
     .active1{
         position: relative;
-        
     }
     .active1::after{
         content: "";
@@ -567,16 +523,13 @@
         left: 45%;
         bottom: 0;
         opacity: 1;
-        
         transition:  all 0.2s;
     }
     .active1:hover::after{
         width: 10%;
     }
-
     .hover1{
         position: relative;
-        
     }
     .hover1::after{
         content: "";
@@ -587,18 +540,14 @@
         left: 45%;
         bottom: 0;
         opacity: 0;
-        
         transition:  all 0.2s;
     }
     .hover1:hover::after{
         opacity: 1;
         width: 10%;
     }
-
-
     .active2{
         position: relative;
-        
     }
     .active2::after{
         content: "";
@@ -608,17 +557,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active2:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover2{
         position: relative;
-        
     }
     .hover2::after{
         content: "";
@@ -635,11 +581,8 @@
         opacity: 1;
         width: 10%;
     }
-
-
     .active3{
         position: relative;
-        
     }
     .active3::after{
         content: "";
@@ -649,17 +592,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active3:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover3{
         position: relative;
-        
     }
     .hover3::after{
         content: "";
@@ -678,7 +618,6 @@
     }
   .active4{
         position: relative;
-        
     }
   .active4::after{
         content: "";
@@ -688,7 +627,6 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-      
         transition:  all 0.2s;
     }
   .active4:hover::after{
@@ -697,7 +635,6 @@
     }
     .hover4{
         position: relative;
-        
     }
   .hover4::after{
         content: "";
@@ -715,11 +652,9 @@
         width: 10%;
     }
     .hero_main1{
-        background-repeat: no-repeat;
-   background-position-x: center;
-   background-position-y: center;
-   background-attachment: fixed;
-   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     }
     .hero_head1{
         text-align: center;
@@ -749,7 +684,6 @@
        .right_trainer{
         width: 80%;
        }
-       
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -764,9 +698,7 @@
         background-position: center;
     }
     .us_main{
-        
-        background-position-x: center;
-        background-position-y: center ;
+        background-position: center;
         background-attachment: fixed;
      } 
      .us_main2{
@@ -774,7 +706,6 @@
         justify-content: center;
         margin-right: 0;
         padding-right: 0;
-    
      }
      .quality_div{
         margin-right: 0;
@@ -803,7 +734,6 @@
     }
     .active1{
         position: relative;
-        
     }
     .active1::after{
         content: "";
@@ -814,16 +744,13 @@
         left: 45%;
         bottom: 0;
         opacity: 1;
-        
         transition:  all 0.2s;
     }
     .active1:hover::after{
         width: 10%;
     }
-
     .hover1{
         position: relative;
-        
     }
     .hover1::after{
         content: "";
@@ -834,18 +761,14 @@
         left: 45%;
         bottom: 0;
         opacity: 0;
-        
         transition:  all 0.2s;
     }
     .hover1:hover::after{
         opacity: 1;
         width: 10%;
     }
-
-
     .active2{
         position: relative;
-        
     }
     .active2::after{
         content: "";
@@ -855,17 +778,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active2:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover2{
         position: relative;
-        
     }
     .hover2::after{
         content: "";
@@ -882,11 +802,8 @@
         opacity: 1;
         width: 10%;
     }
-
-
     .active3{
         position: relative;
-        
     }
     .active3::after{
         content: "";
@@ -896,17 +813,14 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-        
         transition:  all 0.2s;
     }
     .active3:hover::after{
         opacity: 1;
         width: 10%;
     }
-
     .hover3{
         position: relative;
-        
     }
     .hover3::after{
         content: "";
@@ -925,7 +839,6 @@
     }
   .active4{
         position: relative;
-        
     }
   .active4::after{
         content: "";
@@ -935,7 +848,6 @@
         position: absolute;
         left: 45%;
         bottom: 0;
-      
         transition:  all 0.2s;
     }
   .active4:hover::after{
@@ -944,7 +856,6 @@
     }
     .hover4{
         position: relative;
-        
     }
   .hover4::after{
         content: "";
@@ -972,7 +883,6 @@
        .right_trainer{
         width: 50%;
         margin-top: 10px;
-
        }
     .left_contact_main{
         width: 100%;
@@ -988,32 +898,20 @@
         display: flex;
         justify-content: center;
     }
-    
-
 }  
- 
-
-    
-
-
 @media only screen and (min-width:1024px) and (max-width:1439px){
     .hero_main{
-        
       background-position: center;
    background-attachment: fixed;
-        
     }
     .hero_main1{
       background-position: center;
    background-attachment: fixed;
-   
     }
-    /*  */
-       .carousel-inner{
+    .carousel-inner{
         width: 100%;
-        overflow:auto
+        overflow:hidden;
     }
-    
 }
 
 @media only screen and (min-width:1440px) and (max-width:2560px){
@@ -1022,9 +920,7 @@
         justify-content: center;
         align-items: center;
         height: 100vh
-        
     }
-   
     .hero_head1{
         text-align: center;
         font-size: 450%;
@@ -1041,22 +937,15 @@
         font-size:250%;
        }
        .carousel-inner{
-    
-   
-        /* height: 100%; */
         width: 100%;
-        overflow:auto
-        
-       
+        overflow:hidden;
     }
     .btn{
         width: 200px;
         height: 65px;
     }
-
 }
 .us_main{
-    
    padding-bottom: 7%;
     width: 100%;
     background-image: url(./Images/us-bg.jpg);
@@ -1077,11 +966,8 @@
     position: absolute;
     right: 48%;
     bottom:-2%;
-    
 }
-
 .us_main2{
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1104,7 +990,6 @@
 }
 .quality_head_div{
     margin-top: 10px;
-    
 }
 .quality_div{
     padding-top: 50px;
@@ -1123,10 +1008,7 @@
 }
 .health_heading{
     padding-top: 8%;
-   
 }
-
-
 .health_para_div{
     overflow-x: hidden;
     margin-top: 50px;
@@ -1149,7 +1031,6 @@
     padding-top:80px;
     position: relative;
 }
-
 .trainers_heading::after{
     content: '';
    background-color: rgb(237,38,83);
@@ -1158,7 +1039,6 @@
     position: absolute;
     right: 48%;
     bottom:-2%;
-    
 }
 .left_head{
     font-weight: 800;
@@ -1173,9 +1053,7 @@
     border-radius: 15px;
     width: 100%;
 }
-
 .social_media_main{
-    
     transform: translateY(-25px);
 }
 .social_media_div{
@@ -1183,28 +1061,20 @@
     width: 70%;
     height: 50px;
     border-radius: 40px;
-   
-   
 }
 .contact_main{
     width: 100%;
     background-color: rgb(39,34,63);
     margin: 0;
-    
 }
-
 .left_contact_img_div{
     height: 100%;
 }
-
-
-
 .right_contact_head{
     font-weight: 900;
     margin-top: 60px;
     position: relative;
 }
-
 .right_contact_head::after{
     content: '';
    background-color: rgb(237,38,83);
@@ -1213,7 +1083,6 @@
     position: absolute;
     right: 89%;
     bottom:-8%;
-    
 }
 .input_div{
     margin-top: 40px;
