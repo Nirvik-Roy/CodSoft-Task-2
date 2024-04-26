@@ -251,7 +251,6 @@ body{
     .hero_main1{
         background-position:center;
    background-attachment: fixed;
-   min-height: 100vh;
     }
     .active1{
         position: relative;
