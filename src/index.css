@@ -7,19 +7,6 @@
     overflow-x: hidden;
    
 }
-html{
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  
-}
-body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 ::-webkit-scrollbar{
     display: none;
 }
@@ -30,7 +17,7 @@ body{
     background-color: none;
 }
 .hero_main{
-    z-index: 999;
+    
     width: 100%;
     padding-top: 3%;
     padding-bottom: 7%;
@@ -1163,7 +1150,6 @@ body{
     background-color: rgb(237,38,83);
 }
 .footer_main{
-
     overflow-y: hidden;
    margin: 0;
     overflow-x: hidden;
