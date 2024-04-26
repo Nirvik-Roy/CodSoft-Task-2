@@ -9,7 +9,7 @@ import Menu from "./Images/menu.png"
 import "./index.css"
 
 function Home() {
-  
+
   let navigate=useNavigate()
   
   return (
@@ -74,7 +74,7 @@ function Home() {
                 </div>
             </div>
           </div>
-          {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
@@ -85,7 +85,7 @@ function Home() {
             data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button> */}
+          </button>
           
         </div>
        
