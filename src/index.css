@@ -8,7 +8,7 @@
    
 }
 html{
-    min-height: 100vh;
+    height: 100%;
     margin: 0;
     padding: 0;
   
@@ -30,7 +30,7 @@ body{
     background-color: none;
 }
 .hero_main{
-    
+   
     width: 100%;
     padding-top: 3%;
     padding-bottom: 7%;
