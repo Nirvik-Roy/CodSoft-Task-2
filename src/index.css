@@ -8,18 +8,21 @@
     overflow-x: hidden;
    
 }
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
 
 ::-webkit-scrollbar{
     display: none;
 }
 .navbar{
     width: 100%;
-   
-   
-   
 }
 .navbar-collapse{
-   
     background-color: none;
 }
 
@@ -40,7 +43,6 @@
 }
 .active1{
     position: relative;
-    
 }
 .active1::after{
     content: "";
@@ -58,7 +60,6 @@
 
 .hover1{
     position: relative;
-    
 }
 .hover1::after{
     content: "";
@@ -74,11 +75,8 @@
 .hover1:hover::after{
     opacity: 1;
 }
-
-
 .hover2{
     position: relative;
-    
 }
 .hover2::after{
     content: "";
@@ -94,8 +92,6 @@
 .hover2:hover::after{
     opacity: 1;
 }
-
-
 .hover3{
     position: relative;
     
@@ -505,7 +501,8 @@
 }
 @media only screen and (min-width: 200px) and (max-width: 767px) and (orientation : portrait) {
     .hero_main{
-        
+        /* height: 100vh; */
+        height: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
@@ -676,7 +673,6 @@
     }
        .left_trainer{
         width:80%;
-    
        }
        .center_trainer{
         width: 80%;
@@ -685,14 +681,13 @@
         width: 80%;
        }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .hero_main{
         background-position: center;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+       
     }
     .hero_main1{
         background-position: center;
@@ -919,7 +914,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh
+
     }
     .hero_head1{
         text-align: center;
