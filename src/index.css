@@ -11,7 +11,7 @@ html{
     height: 100%;
     margin: 0;
     padding: 0;
-    backface-visibility: hidden;
+   
   
 }
 body{
@@ -19,7 +19,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    backface-visibility: hidden;
+    
 }
 
 ::-webkit-scrollbar{
@@ -33,7 +33,7 @@ body{
     background-color: none;
 }
 .hero_main{
-   
+   height:100%;
     width: 100%;
     padding-top: 3%;
     padding-bottom: 7%;
@@ -240,10 +240,11 @@ body{
         margin: 0;
         padding: 0;
         width: 100%;
-        min-height: 100vh;
+        height:100%
     }
     .hero_main{
         /* height: 100vh; */
+         height: 100dvh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -520,16 +521,17 @@ body{
         margin: 0;
         padding: 0;
         width: 100%;
-        min-height: 100vh;
+       
     }
     .hero_main{
         
         /* height: 100vh; */
-        min-height: 100vh;
+        
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         padding-top: 10%;
+        height:100dvh;
     }
     .active1{
         position: relative;
@@ -986,7 +988,7 @@ body{
 }
 .us_main{
 
-   
+   border-top: 0.1rem solid rgb(35,32,49);
    padding-bottom: 7%;
     width: 100%;
     background-image: url(./Images/us-bg.jpg);
@@ -1047,6 +1049,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
+    border-top: 0.1rem solid rgb(103,52,67);
 }
 .health_heading{
     padding-top: 8%;
@@ -1059,7 +1062,7 @@ body{
     font-size: large;
 }
 .trainers_main{
-
+   border-top: 0.1rem solid rgb(36,33,50);
     width: 100%;
     padding-bottom: 9%;
     background-image: url(./Images/trainer-bg.jpg);
@@ -1106,7 +1109,7 @@ body{
     border-radius: 40px;
 }
 .contact_main{
-
+    border-top: 0.1rem solid rgb(36,33,50);
     width: 100%;
     background-color: rgb(39,34,63);
     margin: 0;
@@ -1173,4 +1176,5 @@ body{
     width: 100%;
     padding-bottom: 5%;
     background-color: rgb(37,34,51);
+    border-top: 0.1rem solid rgb(37,34,51);
 }
