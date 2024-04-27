@@ -11,7 +11,7 @@ function WhyUS(){
                 <h2 className="text-center text-light  us_head">WHY CHOOSE US</h2>
             </div>
             <div className="us_main2 row d-flex justify-content-evenly">
-                <div className="quality_div quality_div1 col-2">
+                <div className="quality_div col-2">
                     <div className="quality_img d-flex justify-content-center">
                         <img className="img1" src={quality} alt=""></img>
                     </div>
